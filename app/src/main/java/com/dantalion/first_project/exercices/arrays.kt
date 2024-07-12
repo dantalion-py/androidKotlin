@@ -1,4 +1,4 @@
-package com.dantalion.first_project
+package com.dantalion.first_project.exercices
 var weekend = arrayOf("monday","tuesday","wednesday","thursday","friday","saturday","sunday")
 var nameles = arrayOf(arrayOf(1,2,3), arrayOf(4,5,6), arrayOf(7,8,9))
 

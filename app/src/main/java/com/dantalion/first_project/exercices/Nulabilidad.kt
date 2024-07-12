@@ -1,4 +1,4 @@
-package com.dantalion.first_project
+package com.dantalion.first_project.exercices
 //nullabilizar variables
 var versatile:String? = "dantalion"
 fun main() {

@@ -1,4 +1,4 @@
-package com.dantalion.first_project
+package com.dantalion.first_project.exercices
 fun main() {
     //inmutable list
     var coreList:List<String> = listOf("arquimedes","euclides","asmodeus","dantalion","democrito")

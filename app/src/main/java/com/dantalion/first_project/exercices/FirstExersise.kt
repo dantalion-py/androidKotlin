@@ -1,4 +1,4 @@
-package com.dantalion.first_project
+package com.dantalion.first_project.exercices
 val names:Int = 34
 var namles:String = "namels"
 fun main() {

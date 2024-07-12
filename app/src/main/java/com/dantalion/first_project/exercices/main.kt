@@ -1,4 +1,4 @@
-package com.dantalion.first_project
+package com.dantalion.first_project.exercices
 var longNum:Long = 12812823762376723
 var smallNum:Int = 1281
 var floatNum:Float = 23.23f
@@ -15,8 +15,8 @@ fun variables(){
 }
 fun main (){
     println("hello world")
-    name=34
-    println(stringLe+" "+name+ charLet+" $doubleNum")
+    name =34
+    println(stringLe +" "+ name + charLet +" $doubleNum")
     println(name2.toString())
     sayHello()
     println(
