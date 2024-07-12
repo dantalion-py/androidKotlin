@@ -21,11 +21,11 @@ class FirstAppActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        var start = findViewById<AppCompatButton>(R.id.start)
-        var editText = findViewById<AppCompatEditText>(R.id.editText)
+        val start = findViewById<AppCompatButton>(R.id.start)
+        val editText = findViewById<AppCompatEditText>(R.id.editText)
 
         start.setOnClickListener {
-                var messageT:String = editText.text.toString()
+                val messageT:String = editText.text.toString()
                 if (messageT.isNotEmpty()){
                     Log.i("dantalion","message: $messageT")
                     val intent = Intent(this,ResultActivity::class.java)
